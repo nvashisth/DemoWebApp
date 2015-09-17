@@ -6,7 +6,7 @@
 </servlet>
 <servlet-mapping>
 <servlet-name>first</servlet-name>
-<url-pattern>first</url-pattern>
+<url-pattern>/first</url-pattern>
 </servlet-mapping>
 
 <filter>
@@ -15,7 +15,7 @@
 </filter>
 <filter-mapping>
 <filter-name>myfilter</filter-name>
-<url-pattern>first</url-pattern>
+<url-pattern>/first</url-pattern>
 </filter-mapping>
 
 <welcome-file-list>
